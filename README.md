@@ -127,16 +127,23 @@ Usage
 
 
 Run Background Subtraction
+```bash
 python bg_subtraction.py --input dataset/original/day1/image.jpg --output output.jpg
+```
 
 Run Segmentation
+```bash
 python segmentation.py --input dataset/original/day1/image.jpg
-
+```
 Run NDVI
+```bash
 python code/NDVI.py --input dataset/original/day1/image.jpg
-
+```
 Crop Images with UI Tool
+```bash
 python ui_crop_img.py
+```
+
 ---
 
 ## ✅ 
