@@ -74,8 +74,8 @@ Fusarium-Classification/
 ```
 ---
 
-📖 Dataset, Phenotype & Process Explained
-📂 dataset/
+## 📖 Dataset, Phenotype & Process Explained
+**📂 dataset/**
 
 Stores raw plant images used for analysis and training.
 
@@ -85,7 +85,7 @@ desc.md → Metadata and description of dataset
 
 👉 Serves as the input source for the pipeline.
 
-📂 phenotype/
+**📂 phenotype/**
 
 Contains supporting code and dependencies for phenotype analysis.
 
@@ -93,7 +93,7 @@ api/requirements.txt → Lists dependencies like OpenCV, numpy, matplotlib
 
 👉 Works as the bridge between dataset and image processing pipeline.
 
-📂 process/
+**📂 process/**
 
 Main image processing module where core functionalities are implemented.
 
