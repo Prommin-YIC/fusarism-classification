@@ -83,6 +83,33 @@ Fusarium-Classification/
    git clone https://github.com/nittaya2mu/Fusarium-Classification.git
    cd Fusarium-Classification
    ```
+2. สร้าง venv
+   python -m venv venv
+💡 คำสั่งนี้จะสร้างโฟลเดอร์ชื่อ venv เอาไว้เก็บ environment ของโปรเจกต์นี้โดยเฉพาะ
+
+ - เปิดใช้งาน venv
+
+บน Windows (CMD หรือ PowerShell) ให้ใช้คำสั่งนี้:
+
+venv\Scripts\activate
+
+
+ถ้าสำเร็จ จะเห็น (venv) นำหน้าแบบนี้ 👇
+
+(venv) C:\Users\mcabk\Fusarium-Classification>
+
+
+🔹 2. เปิดใช้งาน venv
+บน Windows (CMD หรือ PowerShell) ให้ใช้คำสั่งนี้:
+
+bash
+คัดลอกโค้ด
+venv\Scripts\activate
+ถ้าสำเร็จ จะเห็น (venv) นำหน้าแบบนี้ 👇
+
+scss
+คัดลอกโค้ด
+(venv) C:\Users\mcabk\Fusarium-Classification>
 
 2. ติดตั้ง dependencies:
 
