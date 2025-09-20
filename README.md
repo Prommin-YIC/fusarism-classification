@@ -111,7 +111,7 @@ scss
 คัดลอกโค้ด
 (venv) C:\Users\mcabk\Fusarium-Classification>
 
-2. ติดตั้ง dependencies:
+3. ติดตั้ง dependencies:
 
    ```bash
    pip install -r phenotype/api/requirements.txt
@@ -119,7 +119,7 @@ scss
 
    หรือใช้ `requirement.txt` ใน root (ถ้ามี)
 
-3. เริ่มระบบ GUI:
+4. เริ่มระบบ GUI:
 
    ```bash
    python GUI_main.py
