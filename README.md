@@ -97,25 +97,25 @@ api/requirements.txt → Lists dependencies like OpenCV, numpy, matplotlib
 
 Main image processing module where core functionalities are implemented.
 
-GUI_main.py → GUI for user interaction
+GUI_main.py → GUI สำหรับใช้งาน
 
-bg_subtraction.py → Removes image background
+bg_subtraction.py → การลบฉากหลังของภาพ
 
-segmentation.py → Segments plant from background
+segmentation.py → การแบ่งภาพเพื่อแยกพืชออกจากพื้นหลัง
 
-contour.py → Extracts plant contours
+contour.py → การหาขอบเขต (Contour) ของพืช
 
-camera.py → Real-time image capture
+camera.py → การใช้งานกล้องแบบเรียลไทม์
 
-testCrop.py / ui_crop_img.py → Cropping functionality
+testCrop.py / ui_crop_img.py → การ Crop รูปภาพ
 
-👉 Acts as the core engine of image analysis.
+👉 เป็น กลไกหลัก ของการวิเคราะห์ภาพ
 
 🔗 Relationship
 
 dataset/ → Input (raw plant images)
 
-phenotype/ → Middleware (dependencies + API)
+phenotype/ → ตัวกลาง (จัดการ dependencies และ pipeline)
 
 process/ → Core Processing (segmentation, contour, GUI)
 
