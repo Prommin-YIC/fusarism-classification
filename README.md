@@ -30,13 +30,13 @@
 
 
 flowchart TD
-    A[Dataset / Camera Input] --> B[Background Subtraction]
-    B --> C[Segmentation]
-    C --> D[Contour Detection]
-    D --> E[Vegetation Indices (NDVI, LAI)]
-    E --> F[UI / Cropping]
-    F --> G[GUI Display & Interaction]
-    G --> H[Save / Output / Training]
+    **A[Dataset / Camera Input] --> B[Background Subtraction]
+    **B --> C[Segmentation]
+    **C --> D[Contour Detection]
+    **D --> E[Vegetation Indices (NDVI, LAI)]
+    **E --> F[UI / Cropping]
+    **F --> G[GUI Display & Interaction]
+    **G --> H[Save / Output / Training]
 
 
 ---
