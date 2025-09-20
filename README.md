@@ -28,7 +28,7 @@
 
 ### Diagram
 
-```mermaid
+
 flowchart TD
     A[Dataset / Camera Input] --> B[Background Subtraction]
     B --> C[Segmentation]
@@ -37,7 +37,7 @@ flowchart TD
     E --> F[UI / Cropping]
     F --> G[GUI Display & Interaction]
     G --> H[Save / Output / Training]
-```
+
 
 ---
 
