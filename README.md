@@ -103,21 +103,30 @@ Fusarium-Classification/
    ```bash
    python main.py
    ```
+Usage
 
+
+Run Background Subtraction
+python bg_subtraction.py --input dataset/original/day1/image.jpg --output output.jpg
+
+Run Segmentation
+python segmentation.py --input dataset/original/day1/image.jpg
+
+Run NDVI
+python code/NDVI.py --input dataset/original/day1/image.jpg
+
+Crop Images with UI Tool
+python ui_crop_img.py
 ---
 
-## ✅ Tips & To-dos
+## ✅ 
 
-* ระบุ Python version (เช่น Python 3.8+)
+* Python version (เก่า)
 * รวม dependencies ทั้งหมดใน `requirements.txt`
-* เพิ่มตัวอย่าง input/output image ใน README เพื่อความเข้าใจ
-* อธิบาย dataset/phenotype/process ให้ชัดเจนขึ้น
+* เพิ่มตัวอย่าง input/output image ใน README 
+* อธิบาย dataset/phenotype/process 
 
 ---
 
-## 📎 License & Author
 
-* **Author:** nittaya2mu
-* **Repo:** [Fusarium-Classification](https://github.com/nittaya2mu/Fusarium-Classification)
-* **License:** (โปรดระบุ เช่น MIT / Apache / GPL)
 
