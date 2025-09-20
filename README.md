@@ -90,17 +90,17 @@ Fusarium-Classification/
  - เปิดใช้งาน venv
 
 บน Windows (CMD หรือ PowerShell) ให้ใช้คำสั่งนี้:
-
+```bash
 venv\Scripts\activate
-
+```
 
 🔹 2.1 เปิดใช้งาน venv
 บน Windows (CMD หรือ PowerShell) ให้ใช้คำสั่งนี้:
 
-
+```bash
 venv\Scripts\activate
+```
 ถ้าสำเร็จ จะเห็น (venv) นำหน้าแบบนี้ 👇
-
 
 (venv) C:\Users\mcabk\Fusarium-Classification>
 
