@@ -72,6 +72,52 @@ Fusarium-Classification/
 │── stream_camera.py      # กล้องแบบ stream
 │── README.md             # คำอธิบายโปรเจกต์ (ไฟล์นี้)
 ```
+---
+
+📖 Dataset, Phenotype & Process Explained
+📂 dataset/
+
+Stores raw plant images used for analysis and training.
+
+original/ → Contains real captured plant images (e.g., daily growth monitoring)
+
+desc.md → Metadata and description of dataset
+
+👉 Serves as the input source for the pipeline.
+
+📂 phenotype/
+
+Contains supporting code and dependencies for phenotype analysis.
+
+api/requirements.txt → Lists dependencies like OpenCV, numpy, matplotlib
+
+👉 Works as the bridge between dataset and image processing pipeline.
+
+📂 process/
+
+Main image processing module where core functionalities are implemented.
+
+GUI_main.py → GUI for user interaction
+
+bg_subtraction.py → Removes image background
+
+segmentation.py → Segments plant from background
+
+contour.py → Extracts plant contours
+
+camera.py → Real-time image capture
+
+testCrop.py / ui_crop_img.py → Cropping functionality
+
+👉 Acts as the core engine of image analysis.
+
+🔗 Relationship
+
+dataset/ → Input (raw plant images)
+
+phenotype/ → Middleware (dependencies + API)
+
+process/ → Core Processing (segmentation, contour, GUI)
 
 ---
 
