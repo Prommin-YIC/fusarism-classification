@@ -148,7 +148,7 @@ venv\Scripts\activate
 ```
 ถ้าสำเร็จ จะเห็น (venv) นำหน้าแบบนี้ 👇
 
-(venv) C:\Users\mcabk\Fusarium-Classification>
+(venv) C:\Users\username\Fusarium-Classification>
 
 3. ติดตั้ง dependencies:
 
@@ -196,8 +196,8 @@ python ui_crop_img.py
 
 * Python version (เก่า)
 * รวม dependencies ทั้งหมดใน `requirements.txt`
-* เพิ่มตัวอย่าง input/output image ใน README 
-* อธิบาย dataset/phenotype/process 
+* input/output image 
+* dataset/phenotype/process 
 
 ---
 
